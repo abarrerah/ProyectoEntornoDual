@@ -19,6 +19,9 @@ public class Main {
 		
 		System.out.println(aa.damagePenetration());
 		System.out.println(aa.localizarObje());
+		
+		
+		
 	}
 
 }

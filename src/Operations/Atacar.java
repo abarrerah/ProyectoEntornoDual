@@ -7,7 +7,9 @@ public interface Atacar {
 	
 	public int damagePenetration();
 	
+	public int pruebaSuma();
 	
+	public String textoLocalizacion();
 ;	
 	
 }

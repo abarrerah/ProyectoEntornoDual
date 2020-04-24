@@ -6,14 +6,14 @@ import org.junit.jupiter.api.Test;
 
 import Model.AntiAir;
 
-class localizarObjectoTest {
+class SumaTest {
 
 	@Test
-	void testLocalizarObje() {
+	void testPruebaSuma() {
 		AntiAir aa=new AntiAir("40mm Gesher", "1121A", "bajo", 2,"SS George", 4, 5, 600);
-		aa.localizarObje();
-		assertEquals(10,aa.localizarObje());
+		aa.pruebaSuma();
+		assertEquals(12000,aa.pruebaSuma());
+		
 	}
-
 
 }

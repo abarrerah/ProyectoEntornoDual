@@ -101,6 +101,21 @@ public class AntiAir extends Marina implements Atacar{
 		
 		return (int) ptt;
 	}
+
+	@Override
+	public int pruebaSuma() {
+		double k=0;
+		
+		k=cantidadCannons*cantidadPersonas*disparosPorMinuto;
+		
+		return (int) k;
+	}
+
+	@Override
+	public String textoLocalizacion() {
+		
+		return "Se supone que estoy en un punto alto ";
+	}
 	
 	
 

@@ -91,6 +91,18 @@ public class InfanteriaPesada extends Infanteria implements Atacar {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+
+	@Override
+	public int pruebaSuma() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public String textoLocalizacion() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 
 }
